@@ -1,3 +1,5 @@
+import errorIMG from '../img/errorPage.jpg';
+
 function error(navegar) {
   const pagError = document.createElement('div');
 
@@ -14,7 +16,7 @@ function error(navegar) {
   });
 
   const imagenError = document.createElement('img');
-  imagenError.src = '../img/errorPage.jpg';
+  imagenError.src = errorIMG;
   imagenError.className = 'imagenError';
 
   pagError.append(imagenError, titulo, buttonRegresar);

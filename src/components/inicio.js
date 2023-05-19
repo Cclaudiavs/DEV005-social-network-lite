@@ -1,4 +1,5 @@
 import { login } from '../lib/services';
+import logoIMG from '../img/yogapp.png';
 
 function inicio(navegar) {
   const seccion = document.createElement('div');
@@ -7,7 +8,7 @@ function inicio(navegar) {
 
   const img = document.createElement('img');
   img.className = 'yogapp';
-  img.src = '../img/yogapp.png';
+  img.src = logoIMG;
   img.alt = 'Foto logo';
 
   const msjBv = document.createElement('h1');

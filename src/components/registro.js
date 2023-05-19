@@ -1,4 +1,5 @@
 import { register } from '../lib/services.js';
+import logo2IMG from '../img/yogapp.png';
 
 function registro(navegar) {
   const section = document.createElement('form');
@@ -28,7 +29,7 @@ function registro(navegar) {
 
   const nodoImg = document.createElement('img');
   nodoImg.className = 'yogapp';
-  nodoImg.src = '/img/yogapp.png';
+  nodoImg.src = logo2IMG;
   nodoImg.alt = 'Foto logo';
 
   const buttonRegistrar = document.createElement('button');

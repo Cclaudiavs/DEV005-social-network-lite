@@ -1,6 +1,9 @@
 import {
   getLoggedInUser, createPost, getPosts, editPost, deletePost, logout,
 } from '../lib/services';
+import perfilIMG from '../img/logo.yogapp.jpeg';
+import borrarIMG from '../img/borrar.png';
+import editarIMG from '../img/editar.png';
 
 function muro(navegar) {
   const miContainer = document.createElement('div');
@@ -12,7 +15,7 @@ function muro(navegar) {
 
   const imgPerfil = document.createElement('img');
   imgPerfil.className = 'imgPerfil';
-  imgPerfil.src = '../img/logo.yogapp.jpeg';
+  imgPerfil.src = perfilIMG;
   imgPerfil.alt = 'foto logo';
 
   const textoPerfil = document.createElement('p');
@@ -104,7 +107,7 @@ function muro(navegar) {
       p.innerHTML = element.content;
 
       const imgEdit = document.createElement('img');
-      imgEdit.src = '../img/editar.png';
+      imgEdit.src = editarIMG;
       imgEdit.alt = 'logo editar';
       imgEdit.className = 'imgEdit';
 
@@ -127,7 +130,7 @@ function muro(navegar) {
       buttonEdit.appendChild(imgEdit);
 
       const imgBorrar = document.createElement('img');
-      imgBorrar.src = '../img/borrar.png';
+      imgBorrar.src = borrarIMG;
       imgBorrar.alt = 'logo borrar';
       imgBorrar.className = 'imgBorrar';
 
