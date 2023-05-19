@@ -38,3 +38,4 @@ https://trello.com/invite/b/ljrCxTBe/ATTId298fc1f6f325de02c1987e1df87747f94A24A4
 
 #### Pruebas unitarias (unit tests)
 Se realizaron test de todos los archivos de la carpeta components, se testearon todas las funciones.
+Se realizaron test de usabilidad, hubo buenas criticas, hicieron dar cuenta de una mala funcionalidad de botones, se corrigio y quedaron funcionando bien. En terminos generales tuvo aceptación en colores y lo sencillo del diseño.
